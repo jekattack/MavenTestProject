@@ -1,4 +1,4 @@
-public class customerCheck {
+public class CustomerCheck {
 
     public static String customerCheckMethod(int customerAmount){
 

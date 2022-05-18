@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,7 +9,7 @@ class customerCheckTest {
         //Given
             int costumerAmout = 32;
         //When
-            String result = customerCheck.customerCheckMethod(32);
+            String result = CustomerCheck.customerCheckMethod(32);
         //Then
             assertEquals(result,"Es sind zu viele Personen im Laden.");
 
@@ -21,7 +20,7 @@ class customerCheckTest {
         //Given
         int customerAmount = 29;
         //When
-        String result = customerCheck.customerCheckMethod(customerAmount);
+        String result = CustomerCheck.customerCheckMethod(customerAmount);
         //Then
         assertEquals(result, "Es sind maximal 30 Leute im Laden.");
     }

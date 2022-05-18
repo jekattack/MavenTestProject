@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AppMain {
+public class Calculator {
     public static void main(String[] args) {
 
         System.out.println("Taschenrechner \nAufgabe 1:");
