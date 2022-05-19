@@ -8,7 +8,7 @@ class RecursionLoopTest {
         //Given
         int input = 0;
         //When
-        int result = WhileLoop.calculate(input);
+        int result = RecursionLoop.calculate(input);
         //Then
         assertEquals(1, result);
     }
@@ -17,7 +17,7 @@ class RecursionLoopTest {
         //Given
         int input = 1;
         //When
-        int result = WhileLoop.calculate(input);
+        int result = RecursionLoop.calculate(input);
         //Then
         assertEquals(1, result);
     }
@@ -27,7 +27,7 @@ class RecursionLoopTest {
         //Given
         int input = 2;
         //When
-        int result = WhileLoop.calculate(input);
+        int result = RecursionLoop.calculate(input);
         //Then
         assertEquals(2, result);
     }
@@ -36,7 +36,7 @@ class RecursionLoopTest {
         //Given
         int input = 3;
         //When
-        int result = WhileLoop.calculate(input);
+        int result = RecursionLoop.calculate(input);
         //Then
         assertEquals(6, result);
     }
@@ -46,7 +46,7 @@ class RecursionLoopTest {
         //Given
         int input = 7;
         //When
-        int result = WhileLoop.calculate(input);
+        int result = RecursionLoop.calculate(input);
         //Then
         assertEquals(5040, result);
     }
